@@ -7,12 +7,12 @@ require __DIR__ . '/vendor/autoload.php';
 use MyApp\Controllers\Layout\Head;
 use MyApp\Controllers\Layout\Footer;
 use MyApp\Config\Route;
-//use MyApp\Controllers\Cliente\ClienteController;
+//use MyApp\Controllers\Cliente\ClientController;
 
 Head::Header();
 Footer::Foo();
 Route::Url();
 
-//$cliente = new ClienteController();
+//$cliente = new ClientController();
 //var_dump($cliente->Index());
 //$cliente->Create(1, "Luisa", "Rondon", "luisae.rondon@gmail.com");

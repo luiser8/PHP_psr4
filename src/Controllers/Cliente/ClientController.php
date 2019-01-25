@@ -1,11 +1,11 @@
 <?php
 
-namespace MyApp\Controllers\Cliente;
+namespace MyApp\Controllers\Client;
 
-use MyApp\Models\Clientes;
+use MyApp\Models\Client;
 use MyApp\Config;
 
-class ClienteController extends Clientes
+class ClientController extends Client
 {
    private $client;
    private $db;

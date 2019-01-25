@@ -3,7 +3,7 @@ namespace MyApp\Models;
 
 use MyApp\Config;
 
-class Clientes
+class Client
 {
     private static $operations;
     private $id_cliente;
