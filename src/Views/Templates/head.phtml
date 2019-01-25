@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MVC PHP - Vuejs</title>
+    <link rel="stylesheet" href="src/Public/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./?home">Home</a>
+            </div>
+            <div class="collapse collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="navegacion">
+                      <li>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Bienvenido Luis</b> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="logoutApp"><a href="/cerrar"><b>Cerrar</b></a></li>
+                            </ul>
+                      </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="./?clients">Clientes</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+   <div id="content"></div>

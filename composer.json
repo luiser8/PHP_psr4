@@ -1,0 +1,19 @@
+{
+	"name": "rondonle/psr4",
+    "description": "Practice",
+    "authors": [
+        {
+            "name": "Luis Rondon",
+            "email": "leduardo.rondon@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+		
+	},
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": ["src/"]
+        }
+    }
+}
