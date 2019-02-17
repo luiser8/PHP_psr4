@@ -12,7 +12,3 @@ use MyApp\Config\Route;
 Head::Header();
 Footer::Foo();
 Route::Url();
-
-//$cliente = new ClientController();
-//var_dump($cliente->Index());
-//$cliente->Create(1, "Luisa", "Rondon", "luisae.rondon@gmail.com");

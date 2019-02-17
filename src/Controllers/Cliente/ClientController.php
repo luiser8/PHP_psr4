@@ -14,10 +14,10 @@ class ClientController extends Client
        $this->db=Config\DB::doConnect();
        $this->client=array();
    }
-   
+
     public function Index(){
-        $client = Clientes::Get('client');
-        return json_encode($client, JSON_NUMERIC_CHECK);
+        $client = Client::Get('client');
+        //return json_encode($client, JSON_NUMERIC_CHECK);
     }
     
     public function Create($id_cliente, $first_name, $last_name, $email){
@@ -28,7 +28,7 @@ class ClientController extends Client
             'email' => $email
         );
         if(!empty($clientes)){
-            Clientes::Save('client', 'campos', $clientes);
+            Client::Save('client', 'campos', $clientes);
         }
         return $clientes;
     }
